@@ -1,0 +1,274 @@
+        * {
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .container {
+        width: 1170px;
+    }
+    
+    #cover {
+        color: #fff;
+        background-size: cover;
+        height: 550px;
+        width: 100%;
+    }
+    
+    #company-name h1 {
+        font-weight: 400;
+        font-size: 40px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.1;
+        color: inherit;
+    }
+    
+    #company-name {
+        float: right;
+        list-style: none;
+        margin-right: 240px;
+        margin-top: 440px;
+        font-size: 40px;
+    }
+    
+    #company-logo {
+        width: 200px;
+        height: 159px;
+        margin-top: 371px;
+        float: left;
+        background-color: #fff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    .banner {
+        height: 200px;
+    }
+    
+    header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.0) 0%, #1e272e), url('https://static.topcv.vn/company_covers/b9LeN0nBF6x7SWXQkEL3.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .menu-bor {
+        box-shadow: 0 1px 2px 1px #eee;
+        color: #000000;
+        width: 100%;
+    }
+    
+    #menu {
+        border-top: 1px solid #f2f2f2;
+        background-color: rgba(255, 255, 255, 1.0);
+        font-size: 16px;
+    }
+    
+    #menu a {
+        display: inline-block;
+        padding: 20px;
+        text-decoration: none;
+        line-height: 40px;
+        height: 80px;
+        color: #000000;
+        width: 100%;
+    }
+    
+    #menu a.active {
+        color: #ff3838;
+        font-size: 16;
+        border-bottom: 2px solid #ff3838;
+    }
+    
+    #menu a:hover {
+        color: #ff3838;
+        border-bottom: 2px solid #ff3838;
+    }
+    
+    .nav {
+        width: 5000px;
+    }
+    
+    .section-job,
+    .job {
+        background-color: rgba(209, 216, 224, 0.1);
+        box-shadow: 0 1px 2px 1px #eee;
+    }
+    
+    .products-job h2 {
+        margin-bottom: 0px;
+    }
+    
+    h6 {
+        letter-spacing: 1px;
+        font-size: 25;
+        text-align: center;
+        margin-top: 50px;
+        width: 70%;
+        margin-left: 15%;
+        line-height: 140%;
+        /* kc giua cac dong*/
+    }
+    
+    h6:after {
+        /*tao phan gach chan duoi chu*/
+        content: "";
+        display: block;
+        width: 400px;
+        height: 1px;
+        background-color: rgba(30, 39, 46, 0.5);
+        margin: 0 auto;
+        /* can giua danh cho khong phai la chu*/
+        margin-top: 10px;
+    }
+    
+    .search {
+        margin-top: 70px;
+    }
+    
+    .row {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+    
+    .main_bottom {
+        margin-top: 80px;
+        color: #000000;
+    }
+    
+    .item {
+        padding: 15px 20px;
+        background: #fff;
+        box-shadow: 0 1px 2px 1px #eee;
+        color: #777;
+    }
+    
+    .wrapper-item {
+        padding: 15px;
+    }
+    
+    a {
+        color: #333;
+        text-decoration: none;
+    }
+    
+    .name-job {
+        display: inline-block;
+        font-size: 18px;
+        color: #000000;
+    }
+    
+    .item-job {
+        padding: 15px 20px;
+        background: #fff;
+        box-shadow: 0 1px 2px 1px #eee;
+        color: #777;
+    }
+    
+    .name-job:hover {
+        color: #ff3838;
+    }
+    
+    .item:hover {
+        box-shadow: 0 1px 2px 1px #1e272e;
+    }
+    
+    .footer_top_left {
+        box-shadow: 1px 1px 0px 0px rgba(128, 142, 155, 0.3);
+    }
+    
+    .footer_top_right {
+        box-shadow: 0px 1px 0px 0px rgba(128, 142, 155, 0.3);
+    }
+    
+    #footer h5 {
+        font-weight: 40;
+        margin-top: 50px;
+    }
+    
+    #footer_bottom,
+    #footer_body {
+        background-color: rgba(209, 216, 224, 0.1);
+    }
+    
+    h6:after {
+        /*tao phan gach chan duoi chu*/
+        content: "";
+        display: block;
+        width: 400px;
+        height: 1px;
+        background-color: rgba(30, 39, 46, 0.5);
+        margin: 0 auto;
+        /* can giua danh cho khong phai la chu*/
+        margin-top: 10px;
+    }
+    
+    h5 {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .keyword {
+        font-size: 14px;
+        line-height: 26px;
+        list-style: none;
+    }
+    
+    .gr_key:after {
+        /*tao phan gach chan duoi chu*/
+        content: "";
+        display: block;
+        width: 50px;
+        height: 1px;
+        background-color: rgba(30, 39, 46, 0.5);
+        margin: 20px auto;
+        /* can giua danh cho khong phai la chu*/
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    
+    .footer_logo {
+        margin-top: 50px;
+    }
+    
+    .new {
+        display: inline;
+        padding: .2em .6em .3em;
+        font-size: 75%;
+        font-weight: 700;
+        line-height: 1;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: .25em;
+    }
+    
+    .list_keyword {
+        padding: 0;
+        display: inline-block;
+        padding: 20px;
+        list-style: none;
+        text-decoration: none;
+        line-height: 30px;
+        height: 80px;
+        color: #000000;
+        width: 100%;
+    }
+    
+    li {
+        display: inline-block;
+        padding-right: 5px;
+        font-size: 14px;
+        padding-left: 5px;
+    }
+    
+    .dress {
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 30px;
